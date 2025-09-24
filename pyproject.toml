@@ -6,11 +6,11 @@ authors = ["Bob Green <rgreen@aquent.com>"]
 readme = "README.rst"
 repository = "https://github.com/litl/backoff"
 license = "MIT"
+license-files = ["LICENSE"]
 keywords = ["retry", "backoff", "decorators"]
 classifiers = ['Development Status :: 5 - Production/Stable',
                'Intended Audience :: Developers',
                'Programming Language :: Python',
-               'License :: OSI Approved :: MIT License',
                'Natural Language :: English',
                'Operating System :: OS Independent',
                'Programming Language :: Python',
@@ -40,5 +40,5 @@ responses = "^0.20.0"
 types-requests = "^2.27.20"
 
 [build-system]
-requires = ["poetry-core>=1.0.0"]
+requires = ["poetry-core>=2.2.0"]
 build-backend = "poetry.core.masonry.api"
